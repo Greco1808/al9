@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+		<link href="css/dracula.css" rel="stylesheet">
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/cabecalho.css" rel="stylesheet">
+		<link href="css/editor.css" rel="stylesheet">
+		<link href="css/menu-navegacao.css" rel="stylesheet">
+		<link href="css/menu-projeto.css" rel="stylesheet">
+		
+	</head>
+	<body spellcheck="false">	
+		<header class="cabecalho-principal">
+			<div class="logo__container">
+				<img src="img/logoAlura-2.png" class="logo-principal">
+			</div>
+			<div class="input__container">
+				<input type="text" placeholder="busque por algo" class="campo">
+			</div>
+			<div class="usuario__container">
+				<img src="img/logo-usuario.svg" class="usuario__imagem">
+				<p>Nome</p>
+			</div>
+		</header>
+	<section class="container__principal">
+		<div class="navegacao__container">
+			<nav>
+				<h1 class="titulo__navegacao">Menu</h1>
+				<ul>
+					<li class="navegacao__lista">
+						<button class="botao__navegacao"><img src="img/codigo.svg"></button>
+						<a href="../Challenge Alura Front End/index.html" class="link">Editor de código</a>
+					</li>
+					<li class="navegacao__lista">
+						<button class="botao__navegacao"><img src="img/comunidade.svg"></button>
+						<a href="../Challenge Alura Front End/comunidade.html" class="link">Comunidade</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="area__codigo">
+			<div class="background__container">
+				<div class="editor">
+					<div>
+							<img src='img/mac.svg' id="mac"/>
+						</div>
+					<div class="codigo-wrapper">
+
+						<code class="preview hljs" id="code" autocomplete="off" autocorrect="off" aria-label="editor" contenteditable="true">
+						Digite seu código aqui</code>
+					</div>
+				</div>
+			</div>
+			
+				<button class="visualizar__highlight"><a href="#">Visualizar com highlight</a></button>
+		</div>
+		<div class="projeto__container">
+			<h1 class="titulo__navegacao">Seu projeto</h1>
+				<input type="text" class="campo titulo__projeto" id="titulo__projeto" placeholder="Nome do seu projeto">
+				<textarea  class="campo descricao__projeto" id="descricao__projeto" rows="6" cols="4" placeholder="Descrição do seu projeto"></textarea>
+			<h2 class="titulo__navegacao">Personalização</h2>
+				<select class="campo linguagem">
+					<option>javascript</option>
+					<option>C++</option>
+					<option>ruby</option>
+					<option>python</option>
+					<option>html</option>
+					<option>css</option>
+				</select>
+					<input type="color" class="cor__campo">
+					<button class="salvar"><a>Salvar projeto</a></button>
+		</div>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+	<script src="js/script.js"></script>
+	
+
+	</body>
+	</html>
+	

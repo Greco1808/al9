@@ -1,0 +1,166 @@
+
+.projetos__container{
+
+	display: flex;
+	width: 	70%;
+
+	
+}
+
+
+.navegacao__container{
+
+	width: 30%;
+}
+
+
+.borda__editor{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #6BD1FF;
+	height: 40vh;
+	width: 100%;
+	border: 1px solid #6BD1FF;
+	border-radius: 8px;
+	
+	
+}
+
+.editor{
+
+	background-color: #141414;
+	width: 90%;
+	height: 85%;
+	color: white;
+	resize: none;
+	border-radius: 8px;
+
+}
+
+.descricao__projeto	{
+
+	display: flex;
+	flex-direction: column;
+	background: rgba(0, 0, 0, 0.16);
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	border-radius: 	8px;
+	width: 45%;
+
+	
+
+}
+
+
+.descricao__projeto	h1{
+
+	color: #FFFFFF;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: Inter;
+	margin-top: 4vh;
+	margin-left: 2vw;
+}
+
+.descricao__projeto	p{
+
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Inter;
+	margin-top: 2vh;
+	margin-left: 2vw;
+
+}
+
+
+.socialmedia__container{
+
+	display: flex;
+	margin-left: 2.5vw;
+	margin-top: 8vh;
+	align-items: center;
+	margin-bottom: 5vh;
+
+}
+
+.contador_comentario_socialmedia {
+
+	color: white;
+	margin: 0 1vw;
+}
+
+.contador_curtida_socialmedia{
+
+	color: white;
+	margin: 0 1vw;
+}
+
+.socialmedia__container .usuario__container{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10vw;
+}
+
+.socialmedia__container .usuario__container p{
+
+	margin: 0;
+}
+
+.icone__like{
+
+	color: white;
+}
+
+.icone__like:hover{
+
+	color: red;
+	transition: 500ms color;
+}
+
+.js-todos-projetos{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 	90%;
+	margin-right: 1vw;
+	
+}
+
+.codigo-mini-container {
+
+	width: 48%;
+
+
+}
+
+.container_borda {
+	display: flex;
+	background-color: #6BD1FF;
+	height: 60vh;
+	border: none;
+	border-radius: 8px;
+	align-items: center;
+	justify-content: center;
+}
+
+.codigo {
+
+	padding: 10px;
+    border-radius: 7px;
+    height: 82%;
+    width: 86%;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    white-space: pre-line;
+    background-color: #141414;
+    line-height: 10px;
+}
+

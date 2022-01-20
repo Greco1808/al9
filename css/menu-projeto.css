@@ -1,0 +1,58 @@
+
+.projeto__container{
+
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.projeto__container .campo{
+
+	width: 80%;
+	margin-bottom:5vh;
+	margin-left: 2vw;
+}
+
+.projeto__container .titulo__navegacao	{
+
+	margin-left: 2vw;
+}
+
+.cor__campo{
+
+	margin-left: 2vw;
+	width: 	85%;
+	height: 10%;
+	border: 1px solid #FFFFFF;
+	background-color: transparent;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.descricao__projeto{
+
+resize: none;
+}
+
+.salvar{
+
+	background-color: #5081FB;
+	border-radius: 8px;
+	border: none;
+	margin: 1rem;
+	padding: 0.7rem;
+	
+}
+
+.salvar:hover{
+
+	background-color: #7BA4FC;
+}
+
+.salvar:active{
+
+
+background-color: #7BA4FC;
+
+
+}

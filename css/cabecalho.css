@@ -1,0 +1,43 @@
+
+.cabecalho-principal{
+
+	display: flex;
+	align-items: center;
+}
+
+.logo__container{
+	margin-top: 1%;
+	width: 25%;
+}
+
+.logo-principal{
+
+	padding: 1%;
+
+}
+
+.input__container{
+	margin-top: 1%;
+ 	width: 50%;
+}
+
+.usuario__container{
+	margin-top: 1%;
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+	
+	
+.usuario__container p{
+
+	color: white;
+}
+
+.usuario__imagem{
+
+	
+	margin-right: 10%;
+}
