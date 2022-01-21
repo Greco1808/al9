@@ -74,7 +74,7 @@ The project is not yet fully completed, the following features need to be develo
 
 -	Search button feature
 -	User Login
--	Export block code as an image
+-	Export block code as a image
 -	Block code edit
 -	Mobile version
 
