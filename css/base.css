@@ -15,7 +15,6 @@ textarea::placeholder	{
 	color: #f9f8f7;
 	font-size: 12px;
 	font-family: inter;
-
 }
 
 .campo{
@@ -26,9 +25,7 @@ textarea::placeholder	{
 	background-color: #2d415a;
 	border: none;
 	color: white;
-	font-family: Inter;
-	
-
+	font-family: Inter;	
 }
 
 
