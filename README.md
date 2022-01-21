@@ -49,7 +49,7 @@ To develop the project, the following Technologies were applied:
 <h2>O que aprendi</h2>
 
 Estudo programação há pouco tempo e esse projeto foi um divisor de águas no meu estudo. Pude aprender como trabalhar com diversas ferramentas que não conhecia, como Trello , Figma, Github e Vercel.
-Além disso, até o momento, muitos dos projetos que realizei foram seguindo tutoriais e , nesse caso, o desafio propôs que buscássemos soluções para resolver o problema proposto. Apenas algumas dicas foram nos passadas. 
+Além disso, até o momento, muitos dos projetos que realizei foram seguindo tutoriais e , nesse caso, o desafio propôs que buscássemos soluções para resolver o problema proposto. Apenas algumas dicas nos foram passadas. 
 Por fim , aprendi muito sobre as linguagens que já estava me  desenvolvendo com HTML, CSS e Javascript, além da utilização de bibliotecas e o LocalStorage.
 
 <b>What I have learned</b>
