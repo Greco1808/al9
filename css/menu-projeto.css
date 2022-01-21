@@ -47,6 +47,7 @@ resize: none;
 .salvar:hover{
 
 	background-color: #7BA4FC;
+	cursor: pointer;
 }
 
 .salvar:active{
